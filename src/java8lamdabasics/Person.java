@@ -5,6 +5,15 @@ public class Person {
 	private String lastName;
 	private int age;
 
+	public Person() {
+		
+	}
+	
+	public Person(String firstName) {
+		super();
+		this.firstName = firstName;
+	}
+
 	public Person(String firstName, String lastName, int age) {
 		super();
 		this.firstName = firstName;
